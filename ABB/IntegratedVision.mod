@@ -52,7 +52,7 @@ MODULE modMain
     ENDPROC
     PROC CheckPosObject()
         CamSetProgramMode mycamera;
-        CamLoadJob mycamera, checkjob;
+        CamLoadJob mycamera, myjob;
         CamSetRunMode mycamera;
         CamReqImage mycamera;
         CamGetResult mycamera, detail;
